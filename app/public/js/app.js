@@ -1,4 +1,11 @@
 'use strict';
+// Login panel animation
+$(document).ready(function() {
+    $('#signup,#signin').click(function(e) {
+        e.preventDefault();
+        $('div.form-auth').toggle('500');
+    });
+});
 
 angular.module('slack-clone', [])
   .factory('GUI', function() {
