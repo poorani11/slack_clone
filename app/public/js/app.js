@@ -15,4 +15,4 @@ var slackClone = angular.module('slackClone', ['ngRoute', 'ngResource', 'firebas
                 redirectTo: '/'
             });
         }
-    ])
+    ]);
